@@ -1,0 +1,7 @@
+MOBILE BUILD STEPS
+1. Extract this ZIP on your phone.
+2. In your GitHub repository, upload the CONTENTS of the JAYRAJ_DSLR_AI folder (not the ZIP file itself) to the repository root. Keep hidden .github/workflows/android-apk.yml included.
+3. Open the repository -> Actions -> Build Android APK -> Run workflow (if it did not start automatically).
+4. Wait for the run to finish with a green check.
+5. Open the successful run -> Artifacts -> JAYRAJ-DSLR-AI-debug-apk -> download and extract the artifact ZIP. Install app-debug.apk.
+Notes: This workflow has not been executed here; GitHub may report compile errors that need fixing. This starter project does not yet contain the promised offline AI upscaling model or a true 8K capture pipeline. Camera resolution depends on phone hardware.
